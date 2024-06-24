@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" verbose="1">
+	<listeners>
+        <listener class-name="test.ListenerTest"/>
+    </listeners>
+<test name="automationSolutionChrome">
+
+		<classes>
+			
+		<class name="test.Tests"/>
+		
+		</classes>
+	</test>
+
+</suite>

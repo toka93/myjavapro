@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" parallel="classes" verbose="1">
+	<listeners>
+        <listener class-name="test.ListenerTest"/>
+    </listeners>
+<test name="automationSolutionChrome" parallel="classes"  thread-count="2" >
+
+		<classes>
+			
+		<class name="test.Tests"/>
+	<class name="test.Tests2"/>
+		
+		</classes>
+	</test>
+
+</suite>

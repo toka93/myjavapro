@@ -1,0 +1,20 @@
+/target/
+/ExtentReport/
+/screenshots/
+/test-output/
+
+# Log file
+*.log
+/test-output/
+/ExtentReport/
+/logs/
+/screenshots/
+/.apt_generated/
+/.apt_generated_tests/
+/.settings/
+.classpath
+.project
+.settings/
+/bin/
+/target/
+/lib/

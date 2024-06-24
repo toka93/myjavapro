@@ -1,0 +1,8 @@
+{
+  
+    "EmailField": "id=login_field",
+    "NextButton": "name=commit",
+    "ErrorMessage":"xpath=//*[@role='alert']"
+   
+  
+}
